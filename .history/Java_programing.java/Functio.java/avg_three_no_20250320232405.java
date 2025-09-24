@@ -1,0 +1,12 @@
+public class avg_three_no {
+    public static int avg(int a,int b,int c){
+        int avg =(a+b+c/3);
+        return avg;
+    }
+    public static void main(String[] args) {
+        int a=23;
+        int b=53;
+        int c=64;
+        System.err.println(avg(a, b, c));
+    }
+}

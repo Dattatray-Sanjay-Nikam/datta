@@ -1,0 +1,13 @@
+public class inverted_traingle {
+    public static void main(String[] args) {
+        int n =4;
+        for(int line =1;line<=n;line++){
+            for (int star =4;star<=n-line+1;star++) {
+                System.err.print("*");
+                
+            }
+            System.err.println("");
+        }
+    }
+    
+}

@@ -1,0 +1,10 @@
+public class array_creation {
+    @SuppressWarnings("unused")
+    public static void main(String args[]){
+        int arr[] =new int [50];
+        int marks[] = {1,2,4};
+        char vari[] ={'a','b','c'};//Java Automatically detect the size of aaray
+        System.err.println(marks);
+        System.err.println(vari);
+    }
+}
